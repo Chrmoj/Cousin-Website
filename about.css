@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading*/
+.title h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.title h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 55px;
+    color: lightgrey;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* Info on owners*/
+.info p {
+    text-align: center;
+}
+
+#address, #owners {
+    font-size: 2rem;
+}
+
+.info {
+    border: 6px solid black;
+    border-radius: 20%;
+    background-color: white;
+}
+
+/* Hours of Operation*/
+.hours p, ul {
+    text-align: center;
+    margin-top: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.hours {
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color: lightsteelblue;
+}
+
+/* Return to Homepage button*/
+.return {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.return button {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: rgb(170, 40, 138);
+    width: 20%;
+}
+
+.return button:hover {
+    box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* Instagram */
+#I-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#sm {
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 95%;
+    font-size: 2rem;
+    width: 30%;
+    margin-top: 10px;
+}
+
+#sm:hover {
+    font-size: 2.1rem;
+}

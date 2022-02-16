@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(168, 30, 168);
+}
+
+/* Heading */
+h1 {
+    margin-top: 25px;
+    font-family: 'Sarina', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#req {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'UnifrakturCook', cursive;
+    margin-bottom: 50px;
+    border-bottom: 2px solid palevioletred;
+    border-left: 50%;
+}
+
+/* Container for Images */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
+
+.grid-container img {
+    width: 100%;
+}
+
+.grid-container p {
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Pictures of the Photos*/
+#second {
+    height: 76%;
+}
+
+#fifth {
+    height: 69%;
+}
+
+#sixth {
+    height: 69%;
+}
+
+#seventh {
+    height: 69%;
+}
+
+/* Button for return*/
+.bottom .btn-1 {
+    cursor: pointer;
+    color: black;
+    font-family: 'Khand', sans-serif;
+    list-style: none;
+}
+
+.btn-1 {
+    background-color:  rgb(126, 93, 126);
+    color: white;
+    font-size: 2rem;
+    border: 1px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.bottom .btn-1:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+    font-size: 2.1rem;
+    box-shadow: 2px 2px 4px rgb(0,0,0, 0.8);
+}
+
+@media screen and (max-width: 500px) {
+    .grid-container img {
+        width: 75%;
+        margin-left: 70px;
+    }
+
+    .bottom .btn-1,
+    .bottom .btn-1:hover {
+        margin-left: 150px;
+        font-size: medium;
+    }
+}
